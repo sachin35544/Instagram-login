@@ -6,7 +6,7 @@ Hi this is Instagram login page Clone
 
  - Responsive Design
  - HTML and CSS only
- - Clone of Instagram.com
+ - Clone of [Instagram Login page](https://www.instagram.com/)
 
 ## Feedback
 
