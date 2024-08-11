@@ -1,0 +1,536 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 60px;
+    width: auto;
+    border-bottom: 1px rgba(128, 128, 128, 0.3) solid;
+    display: flex;
+}
+#logo{
+    height: 29px;
+    width: 103px;
+    margin-top: 1.2%;
+    margin-left: 19%;
+    cursor: pointer;
+}
+.firstbtn{
+    margin-top: 1%;
+    margin-left: 45%;
+}
+#login-btn{
+    height: 32px;
+    width: 71px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0195f7;
+    border: none;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+#signup-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding-left: 13px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #0195f7;
+}
+#signup-btn:hover{
+    color: rgb(58, 58, 58);
+}
+.nextbox{
+    display: flexbox;
+    flex-direction: row;
+    margin-top: 20px;
+    height: 680px;
+    width: 100%;
+}
+.img-photo{
+    height: 635px;
+    margin-top: 32px;
+    left: -200px;
+    position: absolute;
+    margin-top: 27px;
+    margin-left: 35%;
+}
+.img-photo2{
+    position: absolute;
+    top: 27px;
+    margin-left: 33.5%;
+    background-image: url(./assets/screenshot1.png);
+    height: 600px;
+    width: 250px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    animation: change 20s ease infinite;
+}
+@keyframes change {
+    0%{
+        background-image: url(./assets/screenshot1.png);
+    }
+    25%{
+        background-image: url(./assets/screenshot2.png);
+    }
+    50%{
+        background-image: url(./assets/screenshot3.png);
+    }
+    75%{
+        background-image: url(./assets/screenshot4.png);
+    }
+    100%{
+        background-image: url(./assets/screenshot1.png);
+    }
+}
+.formbox{
+    height: 420px;
+    width: 363px;
+    border: 1px solid rgba(128, 128, 128, 0.285);
+    position: absolute;
+    border-radius: 1px;
+    left: 52%;
+    top: 110px;
+}
+#logo2{
+    height: 50px;
+    width: 170px;
+    margin-top: 50px;
+    margin-left: 25%;
+    cursor: pointer;
+}
+#uid{
+    height: 40px;
+    width: 270px;
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.242);
+    background-color: rgba(128, 128, 128, 0.05);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    padding-left: 8px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#pass{
+    height: 40px;
+    width: 270px;
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.242);
+    background-color: rgba(128, 128, 128, 0.05);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    padding-left: 8px;
+    margin-left: 40px;
+    margin-top: 6px;
+}
+#uid:focus{
+    border: 1px solid rgba(128, 128, 128, 0.756);
+    outline: none;
+}
+#pass:focus{
+    border: 1px solid rgba(128, 128, 128, 0.756);
+    outline: none;
+}
+#login-btn2{
+    height: 32px;
+    width: 280px;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0195f7b1;
+    border: none;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+.div1{
+    height: 10px;
+    width: 110px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: rgba(128, 128, 128, 0.3) 1px solid;
+    margin-left: 40px;
+}
+.div2{
+    height: 10px;
+    width: 110px;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: rgba(128, 128, 128, 0.3) 1px solid;
+}
+#or{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: gray;
+}
+#fb{
+    height: 22px;
+    width: 22px;
+    position: relative;
+    bottom: -6px;
+}
+#fba{
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 128, 0.8);
+}
+#forgot-pass{
+    height: 10px;
+    width: 200px;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12.5px;
+    margin-left: 15px;
+    position: relative;
+    top: 17px;
+}
+#signup-box{
+    height: 60px;
+    width: 362px;
+    background-color: transparent;
+    position: relative;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(128, 128, 128, 0.285);
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14.5px;
+    font-weight: 480;
+}
+#signup{
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #0084dc;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+#app{
+    position: absolute;
+    bottom: -105px;
+    left: 40%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.instalink{
+    position: absolute;
+    bottom: -170px;
+    left: 15%;
+    display: flex;
+    flex-direction: row;
+}
+#gp{
+    height: 43px;
+    width: 134px;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#ms{
+    height: 43px;
+    width: 134px;
+    text-decoration: none;
+    margin-left: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+.footer-link{
+    text-decoration: none;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 12.5px;
+    color: gray;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.footer-link:hover{
+    text-decoration: underline;
+}
+.language{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#lang{
+    border: none;
+    outline: none;
+    background-color:transparent;
+    width: 90px;
+    color: gray;
+    font-size: 12.5px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+#copyright{
+    margin-left: 20px;
+    color: gray;
+    font-size: 12.5px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+@media screen  and (max-width: 1300px){
+    #logo{
+        height: 29px;
+        width: 103px;
+        margin-top: 1.3%;
+        margin-left: 15%;
+        cursor: pointer;
+    }
+    .firstbtn{
+        margin-top: 1%;
+        margin-left: 50%;
+    }
+    .img-photo{
+        height: 635px;
+        margin-top: 32px;
+        left: -200px;
+        position: absolute;
+        margin-top: 27px;
+        margin-left: 30%;
+    }
+    .formbox{
+        height: 420px;
+        width: 363px;
+        border: 1px solid rgba(128, 128, 128, 0.285);
+        position: absolute;
+        border-radius: 1px;
+        left: 54%;
+        top: 110px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #logo{
+        height: 29px;
+        width: 103px;
+        margin-top: 1.9%;
+        margin-left: 13%;
+        cursor: pointer;
+    }
+    .firstbtn{
+        margin-top: 1%;
+        margin-left: 53%;
+    }
+    .img-photo{
+        height: 635px;
+        margin-top: 32px;
+        left: -200px;
+        position: absolute;
+        margin-top: 27px;
+        margin-left: 25%;
+    }
+    .formbox{
+        height: 420px;
+        width: 363px;
+        border: 1px solid rgba(128, 128, 128, 0.285);
+        position: absolute;
+        border-radius: 1px;
+        left: 55%;
+        top: 110px;
+    }
+}
+@media screen and (max-width: 800px) {
+    #logo{
+        height: 29px;
+        width: 103px;
+        margin-top: 2.5%;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+    .firstbtn{
+        margin-top: 1.8%;
+        margin-left: 53%;
+    }
+    .img-photo{
+        height: 635px;
+        margin-top: 32px;
+        left: -200px;
+        position: absolute;
+        margin-top: 27px;
+        margin-left: 27%;
+        display: none;
+    }
+    .formbox{
+        height: 420px;
+        width: 363px;
+        border: 1px solid rgba(128, 128, 128, 0.285);
+        position: absolute;
+        border-radius: 1px;
+        left: 25%;
+        top: 110px;
+    }
+}
+@media screen and (max-width: 650px) {
+    #logo{
+        height: 29px;
+        width: 103px;
+        margin-top: 3%;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+    .firstbtn{
+        margin-top: 1.8%;
+        margin-left: 45%;
+    }
+    .img-photo{
+        height: 635px;
+        margin-top: 32px;
+        left: -200px;
+        position: absolute;
+        margin-top: 27px;
+        margin-left: 27%;
+        display: none;
+    }
+    .formbox{
+        height: 420px;
+        width: 363px;
+        border: 1px solid rgba(128, 128, 128, 0.285);
+        position: absolute;
+        border-radius: 1px;
+        left: 20%;
+        top: 110px;
+    }
+}
+@media screen and (max-width: 535px) {
+    #logo{
+        height: 29px;
+        width: 103px;
+        margin-top: 3.5%;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+    .firstbtn{
+        margin-top: 1.8%;
+        margin-left: 40%;
+    }
+    .img-photo{
+        height: 635px;
+        margin-top: 32px;
+        left: -200px;
+        position: absolute;
+        margin-top: 27px;
+        margin-left: 27%;
+        display: none;
+    }
+    .formbox{
+        height: 420px;
+        width: 363px;
+        border: 1px solid rgba(128, 128, 128, 0.285);
+        position: absolute;
+        border-radius: 1px;
+        left: 15%;
+        top: 110px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #logo{
+        height: 29px;
+        width: 103px;
+        margin-top: 3.7%;
+        margin-left: 10%;
+        cursor: pointer;
+    }
+    .firstbtn{
+        margin-top: 3%;
+        margin-left: 30%;
+    }
+    .img-photo{
+        height: 635px;
+        margin-top: 32px;
+        left: -200px;
+        position: absolute;
+        margin-top: 27px;
+        margin-left: 27%;
+        display: none;
+    }
+    .formbox{
+        height: 420px;
+        width: 363px;
+        border: 1px solid rgba(128, 128, 128, 0.285);
+        position: absolute;
+        border-radius: 1px;
+        left: 10%;
+        top: 110px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .navbar{
+        display: none;
+    }
+    #logo{
+        height: 29px;
+        width: 103px;
+        margin-top: 3.7%;
+        margin-left: 10%;
+        cursor: pointer;
+        display: none;
+    }
+    .firstbtn{
+        margin-top: 3%;
+        margin-left: 30%;
+        display: none;
+    }
+    .img-photo{
+        height: 635px;
+        margin-top: 32px;
+        left: -200px;
+        position: absolute;
+        margin-top: 27px;
+        margin-left: 27%;
+        display: none;
+    }
+    .formbox{
+        height: 420px;
+        width: 363px;
+        border: none;
+        position: static;
+        
+        #signup-box{
+            height: 60px;
+            width: 362px;
+            background-color: transparent;
+            position: relative;
+            top: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: none;
+            text-decoration: none;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-size: 14.5px;
+            font-weight: 480;
+        }
+        .instalink{
+            position: static;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        #app{
+            position: static;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+        }
+    }
+}
