@@ -12,12 +12,6 @@
 
 A clean and responsive clone of the Instagram login page built using only HTML and CSS.
 
-## Preview
-
-<div align="center">
-  <img src="assets/main-image.png" alt="Instagram Login Clone Preview" width="820" />
-</div>
-
 ## Features
 
 - Responsive layout for different screen sizes
